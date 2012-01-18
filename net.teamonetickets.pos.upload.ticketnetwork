@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<false/>
+	<key>Label</key>
+	<string>net.teamonetickets.pos.upload.ticketnetwork</string>
+	<key>OnDemand</key>
+	<true/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>open</string>
+		<string>/Path/To/Run TicketNetwork Uploader.app</string>
+	</array>
+	<key>ServiceDescription</key>
+	<string>Inventory Uploader - TicketNetwork</string>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Path/To/A/Folder/Containing/Only/Your/TicketNetwork/File/</string>
+	</array>
+</dict>
+</plist>
