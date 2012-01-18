@@ -13,13 +13,13 @@ Open it in Fake.app and look for the first occurrence of `Set Values of HTML For
 
 Find the second occurrence of `Set Values of HTML Form` and change `fileInventory` to the full path to your inventory file. *This inventory file needs to be in a folder with NO other files in there.* e.g.:`/Users/teamone/Dropbox/InventoryFiles/TeamOneTickets/TicketNetwork/TicketNetwork.csv`
 
-Run Ticket Network Uploader
+Run Ticket Network Uploader.scpt
 ---
 This is an AppleScript.
 
 Unfortunately, you cannot (AFAIK) tell Fake.app to run a workflow periodically, but AppleScript can so this is essentially a wrapper to do that.
 
-You will need to open this file and edit the first line to match your `/Full/Path/To/TicketNetwork Uploader.fakeworkflow`.
+You will need to open this file and edit the first line to match your `/Full/Path/To/TicketNetwork Uploader.fakeworkflow` then save it as an Application.
 
 net.teamonetickets.pos.upload.ticketnetwork
 ---
